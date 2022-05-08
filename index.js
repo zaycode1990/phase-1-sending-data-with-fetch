@@ -30,7 +30,7 @@
 // .then(function(users)){
 //     console.log(users)
 
-// const p = document.querySelector('#info')
+const p = document.querySelector('#info')
 const para = document.querySelector('#append')
 function submitData(userName, userEmail) {
     return fetch('http://localhost:3000/users',{
